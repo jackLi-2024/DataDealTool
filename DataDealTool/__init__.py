@@ -1,6 +1,12 @@
-# DataDealTool
-the package to deal data between csv and excel
-This package implements the conversion between CSV files and Excel files.
+#!/usr/bin/env python
+# _*_ coding:utf-8 _*_
+
+"""
+File:   __init__.py
+Author: Lijiacai (v_lijiacai@baidu.com)
+Date: 2018-12-17
+Description:
+    This package implements the conversion between CSV files and Excel files.
     dictorder provide ordered Dictionaries and return a Dictionaries too.
 
     e.g1:
@@ -28,3 +34,4 @@ This package implements the conversion between CSV files and Excel files.
         from DDT.dictorder import sorted_dict
         data = {"a":"11", "c":"123", "b": "321"}
         new_data = sorted_dict(data)
+"""
